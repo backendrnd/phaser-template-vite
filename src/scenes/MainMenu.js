@@ -14,7 +14,7 @@ export class MainMenu extends Scene {
     create() {
         this.add.image(GAME_WIDTH / 2, 384, 'background');
 
-        this.add.image(GAME_WIDTH / 2, 300, 'logo');
+        this.add.image(GAME_WIDTH / 2, 100, 'logo').setScale(0.5);
 
         this.add
             .text(GAME_WIDTH / 2, 460, 'Main Menu', {
